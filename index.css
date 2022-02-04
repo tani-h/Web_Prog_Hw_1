@@ -1,0 +1,55 @@
+body {
+  font-family: sans-serif;
+  background-image: url("bg2.jpg");
+  background-size: cover;
+}
+
+h1 {
+  color: rgb(73, 18, 124);
+  text-align: center;
+}
+
+.headshot {
+  margin-left: 40%;
+}
+
+h2.headshot {
+  text-align: center;
+  margin-left: 40%;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: none;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 16px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+span {
+  font-weight: bold;
+  color: red;
+}
+
+a.cs:hover {
+  color: green;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.quote {
+  color: rgb(56, 65, 56);
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 40px;
+}
